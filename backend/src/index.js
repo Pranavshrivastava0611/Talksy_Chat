@@ -1,6 +1,6 @@
 import express from "express"
 import dotenv from "dotenv"
-import cookieParser from "cookie-Parser"
+import cookieParser from "cookie-parser"
 import authRoutes from "./routes/auth.route.js"
 import messageRoutes from "./routes/message.route.js"
 import { conncetDb } from "./lib/db.js";
